@@ -1,0 +1,101 @@
+<html lang="en" data-bs-theme="light">
+    <head>
+        <script src="/docs/5.3/assets/js/color-modes.js"></script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Hugo 0.118.2">
+        <title>Blog Template · Bootstrap v5.3</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
+
+        
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+        <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <!-- Favicons -->
+
+
+        <!-- Custom styles for this template -->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&amp;display=swap" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        
+        <meta name="x-ce-data" ceid="emeokgokialpjadjaoeiplmnkjoaegng" content="gGgeiPyV66jRWLNR47qLNua7jMkLR/83Jx/PQQKMrTDUq4u/EPnrsjSIKH4kkJ21">
+
+        
+    </head>
+    <link rel='stylesheet' href='./style.css'>
+  
+  <body cz-shortcut-listen="true">
+    
+
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <span class="fs-4">Arts</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Works</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Exhibitions</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Press</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Blogs</a></li>
+        </ul>
+        </header>
+    </div>
+
+
+    <main class="container">
+
+    
+    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+        <div class="contentsContainer">
+            
+                <img class="bd-placeholder-img contentImg"  src="./assets/gogh1.jpeg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            
+            <div class="introduction">
+                <h1 class="display-4 fst-italic">Madame Roulin and Her Baby</h1>
+                <p class="lead my-3">Vincent van Gogh 
+                    <br>
+                    1888</p>
+                <p>This vigorously painted portrait of Augustine Roulin and her infant daughter, Marcelle, is one of Van Gogh’s many evocative renderings of the Roulin family, undertaken some six months after the artist relocated from Paris to Arles. Van Gogh painted the entire family of the local postman Joseph Roulin. Here, the chubbycheeked infant is the focus of the enterprise. Her heightened expression in thickly painted brushwork suggests that the baby may have posed for van Gogh, swaddled in her mother’s embrace. Augustine Roulin, by contrast, is an abbreviated presence.</p>
+                <!-- <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p> -->
+            </div>    
+        </div>
+        
+    </div>
+
+  
+    
+    <section class="mb-5">
+        <div class="card bg-light">
+            <div class="card-body">
+                <!-- Comment form-->
+            <form class="mb-4">
+                <textarea id="comment-input" class="form-control" rows="3" placeholder="What do you think of this work? Leave a comment!"></textarea>
+                <button type="button" onclick="addComment()" class="btn btn-primary mt-2">Post Comment</button>
+            </form>
+
+            <!-- Comments container -->
+            <div id="comments-container"></div>
+            </div>
+        </div>
+    </section>
+
+    <canvas id="wordCloudCanvas" width="800" height="400"></canvas>
+
+    </main>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.0.6/wordcloud2.min.js"></script>
+    <script src="script.js"></script>
+    
+
+</body>
+
+</html>
