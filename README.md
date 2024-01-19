@@ -1,5 +1,7 @@
 # bootstrap-practice
 
+https://ekgus9701.github.io/bootstrap-practice/ 
+
 HTML, CSS, Javascript, 부트 스트랩을 활용하여 간이 웹페이지를 제작했습니다. </br>
 ** 일부 기능만 동작합니다.
 
